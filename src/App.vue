@@ -265,7 +265,7 @@ onMounted(()=>{
             <template #title>
               <a-typography-paragraph
                   :ellipsis="{ rows: 1, showTooltip: true}"
-              >{{ item.name + item.albumName ? '(' + item.albumName + ')' : '' }}</a-typography-paragraph>
+              >{{ item.name }} {{ item.albumName ? '(' + item.albumName + ')' : '' }}</a-typography-paragraph>
             </template>
             <template #description>
               <a-typography-paragraph
