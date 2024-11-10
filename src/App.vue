@@ -70,6 +70,7 @@ function handleSearch() {
 
 function handleShowDownloadDrawer() {
   showDrawer.value = !showDrawer.value;
+  downloadLoop();
 }
 
 const saveDirectory = ref('');
